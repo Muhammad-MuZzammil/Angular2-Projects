@@ -1,0 +1,14 @@
+.parent .child{
+  background-color: black;
+}
+/* .parent.child{
+  background-color: red;
+} */
+
+.parent, .child{
+  background-color: green;
+}
+.parent> .child1{
+  background-color: yellow;
+
+}

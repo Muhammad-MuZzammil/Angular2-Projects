@@ -1,0 +1,29 @@
+<h1>Arrays</h1>
+
+<ul>
+
+    <li *ngFor="let name of names">
+        HEY {{ name }}
+
+    </li>
+</ul>
+
+<h3>ngSwitch</h3>
+
+<h5>Current choice is {{choice}}</h5>
+<div>
+
+    <ul [ngSwitch]="choice">
+        <li *ngSwitchWhen="1">1st Choice</li>
+        <li *ngSwitchWhen="2">2nd Choice</li>
+        <li *ngSwitchWhen="3">3rd Choice</li>
+        <li *ngSwitchWhen="2">2th Choice,again</li>
+        <li *ngSwitchDefault>Default Choice</li>
+    </ul>
+
+</div>
+
+<div>
+
+    <button (click)="nextChoice()">Next Choice</button>
+</div>

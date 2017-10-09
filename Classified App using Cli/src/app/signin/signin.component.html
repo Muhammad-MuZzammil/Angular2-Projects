@@ -1,0 +1,39 @@
+<section id="signin">
+  <div class="section-signin">
+    <div class="container">
+      <div class="row">
+        <form class=" form-signin col-sm-6 offset-sm-2" role="form" [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)" novalidate>
+          <!--<div class="">-->
+            <h3 class="signin-heading">Signin <i class="fa fa-lock"></i></h3>
+          <!--</div>-->
+
+          <div class="form-group">
+            <input type="email" placeholder="Email" class="form-control" name="email" autofocus [formControl]="myForm.controls['email']" required
+              pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$">
+            <div [hidden]="(!myForm.controls['email'].hasError('required') || !myForm.controls['email'].touched) &&
+             (myForm.controls['email'].valid || myForm.controls['email'].pristine)" class="text-danger">
+              Email is required and format should be <b>saad@example.com</b>.
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" name="password" required minlength="3" placeholder="Password" [formControl]="myForm.controls['password']">
+            <div [hidden]="(!myForm.controls['password'].hasError('required') || !myForm.controls['password'].touched) &&
+             (myForm.controls['password'].valid || myForm.controls['password'].pristine)" class="text-danger">
+              Password is required and it should be at least 3 charactor.
+            </div>
+          </div>
+          
+          <div>
+            <button type="submit" class="btn btn-default" [disabled]="!myForm.valid">Signin</button>
+                      <i *ngIf="loaderSignIn" class='fa fa-circle-o-notch fa-spin'></i>
+
+          </div>
+          <div class="signupLink">
+            <span>Do you have account? <a [routerLink]="['/signup']">Signup</a></span>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>

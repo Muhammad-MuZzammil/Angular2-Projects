@@ -1,0 +1,93 @@
+
+/* NAVIGATION */
+.bold-red{
+    color: red;
+}
+
+.navbar-brand{
+    font-family: 'Cubano-Regular';
+    padding-right: 50px;
+
+}
+#main-nav{
+    
+    font-family: 'Nunito-Regular';
+    
+}
+#main-nav h3{
+    font-size: 40px;
+}
+#main-nav li a{
+    border-bottom: 1px solid transparent;
+    font-size: 20px;
+    padding: 10px 10px;
+     transition: 0.5s;
+     color: white;
+    margin-top: 0.5rem;
+     
+     
+}
+#main-nav li a:hover,
+#main-nav li a:active
+
+{
+    border-bottom: 1px solid red;
+     transition: 0.5s;
+     color: #fff;
+}
+nav a.active{
+background-color: red;    
+}
+.form-inline{
+    margin-top: 1rem;
+}
+
+#main-nav li button{
+  border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+     
+     
+}
+
+/*NAVIGATION COMPLETED*/
+
+
+/*BUTTON*/
+.btn-success-outline{
+        border: 1px solid red;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Cubano-Regular' !important;
+    transition: 0.5s;
+    
+}
+.btn-success-outline:hover{
+    background-color: red;
+    transition: 0.5s;
+    
+}
+/*BUTTON COMPLETED*/
+
+
+/* SECTION CARD*/
+#section-card{
+    background-color: white;
+}
+
+.card{
+    display: flex;
+    padding-left: 7rem; 
+}
+
+.card .title-subtitle {
+    padding-top: 2rem;
+    text-align: center;
+}
+.card img{
+    padding: 2rem;
+}
+/*SECTION CARD COMPLETED*/

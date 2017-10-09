@@ -1,0 +1,48 @@
+#signin{
+    height: 100% !important;
+    background-color: red !important;
+}
+
+
+.btn-default{
+    width: 100%;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.btn-default:hover{
+    color: red;
+    font-size: 3rem;
+}
+.fa-lock{
+        margin-left: 23rem;
+}
+.form-signin{
+    background-color: grey;
+    /*padding: 4rem;*/
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    margin-top: 8rem;
+    margin-left: 21rem;
+}
+
+.signin-heading{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+.signupLink{
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    padding-top: 5rem;
+
+}
+.signupLink span a:hover{
+    color: red;
+    font-size: 2.5rem;
+}
+.fa-spin{
+    margin-left: 13rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+}

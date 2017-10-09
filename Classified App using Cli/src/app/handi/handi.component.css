@@ -1,0 +1,100 @@
+/* SECTION HANDI */
+.section-handi{
+    background-color: white;
+    height: 100%;
+   
+    
+}
+.header{
+    background-color: red;
+    margin-top: 3rem;
+
+}
+.btn-success-outline{
+        margin-top: 7px;
+font-size: 1rem;
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    
+}
+.fa-bars{
+    color: black;
+font-size: 3rem;
+    margin-top: 3px;
+    transition: 0.5s;
+}
+
+.fa-bars:hover{
+    color: white;
+    transition: 0.5s;
+    
+}
+.title-heading{
+        margin-top: 3px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+li{
+    list-style: none;
+    
+}
+.mainImage{
+    width: 55rem;
+    padding-left: 24rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.dishImg{
+    border-radius: 10rem;
+    width: 32rem;
+    margin-left: -354px;
+    margin-top: -35%;
+    margin-bottom: -33%;
+}
+.dishName{
+   font-size: 3rem;
+    margin-left: 17rem;
+}
+
+.dishQuantity{
+       font-size: 2rem;
+    text-align: center;
+}
+
+.dishPrice{
+    font-size: 1.5rem;
+    float: right;
+    margin-top: 1rem;
+
+}
+.dishForm{
+    float: right;
+    width: 20rem;
+}
+.dishImage{
+    width: 5rem;
+    height: 8rem;
+    float: left;
+    margin-left: -15px;
+    border-radius: 2rem;
+    padding-bottom: 44px;
+
+}
+    
+/* BUTTON */
+.btn-success-outline{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    transition: 0.5s;
+    
+}
+.btn-success-outline:hover{
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+    
+}
