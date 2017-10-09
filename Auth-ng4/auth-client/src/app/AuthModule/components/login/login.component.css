@@ -1,0 +1,33 @@
+.email input{
+  margin-left: 5.5rem;
+}
+.password input{
+  margin-left: 55px;
+  margin-top: 2rem;
+}
+
+.login-btn{
+  width: 21rem;
+  margin-top: 2rem;
+
+}
+/* .login-form{
+  background-color: lightgrey;
+  width: 24rem;
+  padding-left: 2rem;
+  height: 11rem;
+  padding-top: 1rem;
+  margin-right: 5rem;
+} */
+.login-form-div{
+  margin-top: 15rem;
+
+}
+
+#email.ng-dirty.ng-touched.ng-invalid{
+  border: 2px solid red;
+}
+
+#password.ng-dirty.ng-touched.ng-invalid{
+  border: 2px solid red;
+}
