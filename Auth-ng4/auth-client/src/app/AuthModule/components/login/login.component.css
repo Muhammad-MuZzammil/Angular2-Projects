@@ -11,6 +11,9 @@
   margin-top: 2rem;
 
 }
+.loginError{
+  color:#f45a67
+}
 /* .login-form{
   background-color: lightgrey;
   width: 24rem;

@@ -1,6 +1,0 @@
-
-0)Validation both client server.
-1)client side http with service
-2) server config
-3)http Requests using express
-4)coneection mongoDB and submit data  5)JWT Token
