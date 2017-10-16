@@ -1,10 +1,10 @@
-import { AuthClientPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('auth-client App', () => {
-  let page: AuthClientPage;
+describe('auth App', () => {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new AuthClientPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {

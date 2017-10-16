@@ -11,12 +11,12 @@ import { AuthService } from './../../services/auth.service';
 export class LoginComponent implements OnInit {
   userSigninObj;
   loginForm: FormGroup;
-  loginFormObj;
+  // loginFormObj;
   constructor(private fb: FormBuilder, private authService: AuthService) {
 
     this.loginForm = fb.group({
-      'email': [null],
-      'password': [null],
+      'email': [''],
+      'password': [''],
     });
   }
 
@@ -25,11 +25,17 @@ export class LoginComponent implements OnInit {
   }
 
   submitForm(form) {
-    this.loginFormObj = {
+    var loginFormObj = {
       'email': form.email,
       'password': form.password
     };
-    console.log(this.loginFormObj);
-    this.authService.loginUser(this.loginFormObj).subscribe(res => console.log(res.json()))
+    // console.log(this.loginFormObj);
+    this.authService.loginUser(loginFormObj)
+      .subscribe(res => {
+        console.log(res.json());
+      })
+
+
+
   }
 }

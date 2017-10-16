@@ -14,14 +14,14 @@ import { AuthService } from './AuthModule/services/auth.service';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
     ReactiveFormsModule,
-    RouterModule.forRoot(authRoutes)
+    HttpModule,
+    RouterModule.forRoot(authRoutes),
   ],
   providers: [AuthService],
 
