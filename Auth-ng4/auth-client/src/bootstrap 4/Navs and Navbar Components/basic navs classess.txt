@@ -1,0 +1,30 @@
+BASIC navs classes:
+-with/without ULs
+-nav
+-nav-item
+-nav-link
+(u can o cant use ul for navigation or use direct nav tag and nav-items is in li tag when ul otherwise nav-item direct use on <a> if ul wont use.and nav-link use when u were using li if u dont using li then nav-item and nav-link is in <a>).
+
+NAV LINK OPTIONS:
+-active
+-disabled
+
+NAV STYLES:
+-nav-pills (look like little button of round edges on active link)
+-nav-tabs(exact tabs)
+
+NAV ALIGNMENT:
+-justify-content-center
+-justify-content-end
+-nav-fill (fill whole horizontal space  but each link has a different space depanding in space or text)
+-nav-justified(forces that the speace b/w each element is same)
+-flex-column(diff BP nav more responsive)
+flex-sm-row (at sm screen ur tabs is in rows)
+
+<nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="nav-item nav-link active" href="#">Home</a>
+  <a class="nav-item nav-link" href="#">Mission Awesomeness</a>
+  <a class="nav-item nav-link" href="#">Services</a>
+  <a class="nav-item nav-link" href="#">Staff</a>
+  <a class="nav-item nav-link disabled" href="#">Testimonials</a>
+</nav>

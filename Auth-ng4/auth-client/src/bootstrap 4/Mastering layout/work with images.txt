@@ -1,0 +1,50 @@
+BASIC IMG:
+class="img-fluid" (responsive image means adjust to be the width of container. also respond container size and resize width of container
+)
+
+1) img-fluid
+2) rounded, rounded-DIR (DIR: direction 
+left right top bottom circle rounded-0 => clear border-radius)  
+3) img-thumbnail (rounded 1px border)
+
+ALIGNING IMAGES:
+
+1)float-left or float-right ( direction of img)
+2)text-center (center inline not img but text)
+3) mx-auto (center block and if u need that image is block element)
+
+FIGURES:
+<figure class="figure"> 
+1) figure on th <figure>  tag (different look) 
+2)  figure-img on the images (right amount of spacing inside the figure)
+3) <figcaption class="figure-caption"> figure-caption (on the text right amount of spacing for it to work well within the figure)
+
+
+<div class="container">
+
+<section class="content" id="testimonials">
+  <h2>Testimonials</h2>
+
+  <figure class="figure">
+    <img class="figure-img img-fluid" src="images/testimonial-janeh.jpg" alt="Jane Photo">
+    <figcaption class="figure-caption">During the summer, our rabbit, Tonto, began to have severe redness  and itching on his belly and feet. I'm very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.</figcaption>
+  </figure>
+
+  <figure>
+    <img class="img-fluid" src="images/testimonial-mcphersons.jpg" alt="McPhersons Photo">
+    <figcaption>When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to see the specialists at Wisdom. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal.</figcaption>
+  </figure>
+
+  <figure>
+    <img class="img-fluid" src="images/testimonial-johnb.jpg" alt="John B Photo">
+    <figcaption>The staff at Wisdom worked tirelessly to determine why our three-year old Golden Retriever, Roxie, started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were again functioning normally.</figcaption>
+  </figure>
+
+  <figure>
+    <img class="img-fluid" src="images/testimonial-lorraines.jpg" alt="Lorraine Photo">
+    <figcaption>Wisdom Pet Medicine is the only clinic around that will even book pet fish for appointments. When our 13-year old Comet goldfish, McAllister, turned from silvery white to an angry red, we called around, urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also was able to diagnose McAllister as having a severe case of septicemia.</figcaption>
+  </figure>
+
+</section>
+
+</div><!-- content container -->

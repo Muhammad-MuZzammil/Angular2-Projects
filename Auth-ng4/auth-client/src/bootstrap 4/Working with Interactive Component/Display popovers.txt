@@ -1,0 +1,38 @@
+Using PopOvers:
+-data-toggle="popover"
+-title="text"
+-data-content="content"
+
+Activating:
+$(function () {
+  $('[data-toggle="popover"]').popover();
+})
+
+
+ Common Options:
+-placement
+top left right bottom
+-trigger
+click hover focus
+-container
+
+ <button type="button" class="btn btn-info"
+    data-toggle="popover"
+    data-placement="bottom"
+    data-trigger="hover"
+    title="Standard Checkups"
+    data-content="Out standard checkups offer Ultrasounds, X-rays and dental cleanings">
+    Checkup Info
+  </button>
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover();
+})
+</script>

@@ -1,0 +1,15 @@
+
+List:
+class="list-unstyled" 
+
+1)list-unstyled  (no bullets)
+2)list-inline on UL
+3)list-inline-items on each LI ( both 2 and 3 points make the item inline or in one line).
+
+blockquotes:
+class="blockquotes"
+
+1) blockquotes (make text of blockquotes little bigger)
+2)blockquotes-footer ( put -with name like -Muzzammil and make it like source or reference or author of something or some books)
+3) blockquotes-reverse ( make the whole quotes right align)
+3)

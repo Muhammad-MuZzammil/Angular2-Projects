@@ -1,0 +1,51 @@
+Flex-Container:
+Container/item classes
+container: u can add additional classes on container and modify all the items within container.
+
+Item classes:
+u can modify ndividual item within containerthrough additional classes.
+
+d-(-BP)(-ineline)-flex
+BP: sm>576, md>768, lg>992, xl>1200
+inline: items within a line.
+d-flex: item is block level
+
+
+DIRECTION: (items move horizontal and vertical)
+flex (-BP) (-DIR) (-reverse)
+BP: sm>576, md>768, lg>992, xl>1200
+DIR: row,column
+
+ORDER:(briefing on custom order tutorial)(work with both of columns in layout as well as component have d-flex class)
+order(-BP)-ORD
+BP: sm>576, md>768, lg>992, xl>1200
+ORD:1-12
+
+JUSTIFY:(control spacing b/w items.)
+justify-content(-BP)-ALG
+BP: sm>576, md>768, lg>992, xl>1200
+ALG: start end center around between
+
+WRAP:(wrap in relation to the space in container)
+fles(-BP)-WRP(-reverse)
+BP: sm>576, md>768, lg>992, xl>1200
+WRP: wrap nowrap
+
+VERTICAL ALIGNMENT:
+(sometimes u want to align things vertivcally)
+align-content(-BP) -ALG
+BP: sm>576, md>768, lg>992, xl>1200
+ALG: start end center between around stretch
+
+
+  <div class="container bg-danger">
+
+      <div class="bg-info d-flex flex-wrap align-content-stretch" style="height:100vh">
+        <div class="item">Exotic</div>
+        <div class="item">Grooming</div>
+        <div class="item">Health</div>
+        <div class="item">Nutrition</div>
+        <div class="item">Pests</div>
+        <div class="item">Vaccinations</div>
+      </div>
+</div><!-- container -->

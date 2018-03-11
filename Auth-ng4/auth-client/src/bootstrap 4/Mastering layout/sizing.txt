@@ -1,0 +1,15 @@
+SIZING:
+(control width and height of different element)
+-SIZ(-AMT)
+SIZ:w  h mw (max-width) mh(max-height)
+AMT: 25 50 75 100 (all is in %)
+
+
+<div class="container bg-danger" style="height: 100vh;">
+  <div class="bg-warning border p-1">Exotic</div>
+  <div class="bg-warning border p-1 w-75 h-25">Grooming</div>
+  <div class="bg-warning border p-1">Health</div>
+  <div class="bg-warning border p-1">Nutrition</div>
+  <div class="bg-warning border p-1">Pests</div>
+  <div class="bg-warning border p-1">Vaccinations</div>
+</div><!-- container -->

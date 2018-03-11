@@ -1,0 +1,35 @@
+Breadcrumb Links:
+-breadcrumb containers
+-breadcrumb-item items
+- active
+-li nav>a
+
+
+<div class="container">
+  <div class="row">
+    <section class="col-12">
+
+<style>
+  .breadcrumb-item+.breadcrumb-item::before {
+    content: '>'
+  }
+</style>
+
+<h3>Exotic Pets</h3>
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Exotic Pets</a></li>
+  <li class="breadcrumb-item active">Nutrition</li>
+</ol>
+
+
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="#">Home</a>
+  <a class="breadcrumb-item" href="#">Exotic Pets</a>
+  <span class="breadcrumb-item active">Nutrition</span>
+</nav>
+
+    </section>
+  </div><!-- row -->
+</div><!-- content container -->

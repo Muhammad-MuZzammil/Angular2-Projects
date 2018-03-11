@@ -1,0 +1,24 @@
+Setting up Alerts:
+-alert
+-alert-COLOR:
+primary secondary success danger warning info light dark
+
+Alert Content:
+-alert-heading
+-alert-link
+
+Dismissible Alerts:
+-alert-dismissible fade show
+-Add a close button
+ 
+
+
+  <div class="alert alert-info alert-dismissible fade show">
+    <button type="button" class="close" data-dismiss="alert" aria-labe="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+    <h4 class="alert-heading">Standard Checkups</h4>
+    <p class="mb-2">Our standard checkups offer ultrasounds, x-rays and dental cleanings.</p>
+    <a class="alert-link" href="#">More Info</a>
+  </div>

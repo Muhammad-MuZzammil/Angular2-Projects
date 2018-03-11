@@ -1,0 +1,18 @@
+Margin/Padding
+-PRO(SID)(-BP)-SIZ
+PRO:m=> margin p=>padding
+SID:t r b l x y
+BP: sm >567 md>768 lg>992 xl>1200
+SIZ: 0 1 2 3 4 5 auto
+
+
+<div class="container bg-danger">
+  <div class="bg-info d-flex">
+    <div class="item">Exotic</div>
+    <div class="item">Grooming</div>
+    <div class="item bg-danger mx-sm-auto pb-3 pt-5">Health</div>
+    <div class="item">Nutrition</div>
+    <div class="item">Pests</div>
+    <div class="item">Vaccinations</div>
+  </div>
+</div><!-- container -->

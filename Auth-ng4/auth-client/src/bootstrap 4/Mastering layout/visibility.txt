@@ -1,0 +1,17 @@
+VISIBILITY:
+-invisible, visible
+-d(-BP)-TYP
+BP: sm>576 md > 768 lg>992 xl>1200
+TYP: none inline inline-block block table table-cell flex inline-flex
+
+
+<div class="container bg-danger">
+  <div class="bg-info d-flex justify-content-center">
+    <div class="item">Exotic</div>
+    <div class="item">Grooming</div>
+    <div class="item d-sm-none">Health</div>
+    <div class="item">Nutrition</div>
+    <div class="item">Pests</div>
+    <div class="item">Vaccinations</div>
+  </div>
+</div><!-- container -->

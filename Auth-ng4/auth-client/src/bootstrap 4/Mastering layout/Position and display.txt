@@ -1,0 +1,29 @@
+
+Position:
+-position classes
+fixed-top (remove the flow of document at put top of the screen and view port)
+fixed bottom (fixed on bottom)
+sticky-top(allow element stick on top on screen as u scroll an element)
+-sticky-top lacks support
+
+Basic Display:
+
+d(-BP)-TYP
+BP:  sm>576 md>768 lg>992 xl>1200
+TYP: none,inline, inline-block, block, table, table-cell, flex, inline-flex
+
+Basic-Flex Container:
+
+d-(-BP)(-inline)-flex
+BP: sm>576 md>768 lg>992 xl>1200
+d-flex block level
+d-md-flex block level on md
+d-md-inline-flex inline on md
+
+
+  <div class="container bg-danger">
+      <div class="bg-info d-md-inline-flex">
+        <div class="item">Exotic Pets</div>
+        <div class="item">Grooming</div>
+        <div class="item">Health</div>
+      </div>

@@ -1,0 +1,50 @@
+Modals:
+-Button or Link (button=>data-target and Link=> #id) 
+-data-target or #id
+-data-toggle="modal"
+-modal
+
+Structural classes:
+-modal-dialog (some exra spacing)
+-modal-content (container main content of the modal)
+-modal-header(optional header => title of the modal)
+-modal-body(put main content)
+- modal-footer(things like close buttons)
+
+Modal Options:
+-modal-title(for headlines)
+-data-dismiss="modal" (modal get rid of modal and take you back to your page)
+
+<div class="container">
+  <div class="row">
+    <section class="col-12">
+
+<button type="button" class="btn btn-primary mt-4"
+  data-toggle="modal" data-target="#servicesmodal">More Info</button>
+
+
+<div class="modal fade" id="servicesmodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Pest Control</h5>
+        <button type="button" class="close"
+          data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div><!-- modal-header -->
+      <div class="modal-body">
+      <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+      </div><!-- modal-body -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"
+          data-dismiss="modal">Back</button>
+      </div><!-- modal-header -->
+    </div><!-- modal-content -->
+  </div><!-- modal-dialog -->
+</div><!-- modal fade -->
+
+    </section>
+  </div><!-- row -->
+</div><!-- content container -->
+

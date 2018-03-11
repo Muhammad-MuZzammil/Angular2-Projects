@@ -23,7 +23,7 @@ export class AuthService {
   });
 
   loginUser(obj): Observable<any> {
-    return this.http.post(api_url + "/login", obj)
+    return this.http.post(api_url + '/login', obj)
       .map(res => {
         return res
       })
@@ -33,49 +33,8 @@ export class AuthService {
     console.error("Error occured " + error);
     return Observable.throw(error || 'Something wrong happened on th server');
   }
-  // private heroesUrl = 'api/heroes';
-  // loginUser(obj): Promise<any> {
-  //   return this.http.post(api_url + '/login', obj, this.options)
-  //     .toPromise()
-  //     .then(res => {
-  //       return res
-  //     })
-  //     .catch(this.handleError);
-  // }
-
-  public handleError(error: any) {
-    console.error('An error occurred', error);
-    error['error'] = true;
-    throw error;
-  }
-
-  // private handleErrorPromise(error: Response | any) {
-  //   console.error(error.message || error);
-  //   return Promise.reject(error.message || error);
-  // }
-
-  // private handleError(error: any) {
-  //   let errMsg = (error.message) ? error.message :
-  //     error.status ? `${error.status} - ${error.statusText}` : 'Server error';
-  //   console.error(errMsg);
-  //   return Observable.throw(errMsg);
-  // }
 
 
-
-  // public handleError(error: any): Promise<any> {
-  //   console.error('An error occurred', error);
-  //   error['error'] = true;
-  //   throw error;
-  // }
-
-
-  // public handleError(error: any) {
-  //   let errMsg = (error.message) ? error.message :
-  //     error.status ? `${error.status} - ${error.statusText}` : 'Server error';
-  //   console.error(errMsg);
-  //   return Observable.throw(errMsg);
-  // }
 
 
 

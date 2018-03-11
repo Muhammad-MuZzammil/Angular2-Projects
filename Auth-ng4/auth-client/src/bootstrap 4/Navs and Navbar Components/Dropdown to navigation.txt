@@ -1,0 +1,45 @@
+Dropdown Setup:(put it separate component or in li or <a>)
+
+-dropdown to align
+-dropdown-toggle on link (remove href service for original nav)
+-data-toggle="dropdown" (activates the dropdown without js)
+-dropdown-menu (put it separate component )
+-dropdown-item(put it inside of dropdown-menu with <a> or li)
+-id & aria attributes
+Aria Classes:(target id)
+aria-haspopup="true" (popup dropdown)
+aria-expended="false"(when first appear,its not going to dropdown-menu showing)
+aria-lablledby="id" (put with dropdown-menu)
+
+
+
+
+<nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm">
+  <div class="container">
+    <div class="navbar-nav ml-sm-auto">
+      <a class="nav-item nav-link" href="#mission">Mission</a>
+
+
+      <div class="dropdown">
+
+        <a class="nav-item nav-link dropdown-toggle" 
+          data-toggle="dropdown" id="servicesDropdown"
+          aria-haspopup="true" aria-expanded="false"
+          href="#">Services</a>
+
+          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <a class="dropdown-item" href="#">Grooming</a>
+              <a class="dropdown-item" href="#">General Health</a>
+              <a class="dropdown-item" href="#">Nutrition</a>
+              <a class="dropdown-item" href="#">Pest Control</a>
+              <a class="dropdown-item" href="#">Vaccinations</a>
+          </div>
+        
+      </div>
+
+
+      <a class="nav-item nav-link" href="#staff">Staff</a>
+      <a class="nav-item nav-link" href="#testimonials">Testimonials</a>
+    </div><!-- navbar-nav -->
+  </div><!-- container -->
+</nav>

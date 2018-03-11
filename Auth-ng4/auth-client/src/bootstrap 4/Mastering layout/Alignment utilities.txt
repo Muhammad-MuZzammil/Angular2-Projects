@@ -1,0 +1,12 @@
+class ="text-justify"
+1) text-justify (equal padding left and right)
+2)text-nowrap ( whole text in one line)
+3)(text-xx-pos)text-center text-left or text-sm-right text-md-left (text-position with screen size)
+
+
+TEXT:
+class ="font-weight-bold"
+
+1) font-weight-bold
+2)font-weight-normal
+3)font-italic

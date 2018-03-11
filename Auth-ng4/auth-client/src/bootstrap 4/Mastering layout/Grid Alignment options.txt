@@ -1,0 +1,60 @@
+Vertical Alignment:(vertically All items put in start center and end of the screen or card etc)
+-use in rows
+-align-items-ALN
+ALN: start, center, end
+-works on nested cols
+
+Individual Alignment:(any Individual  col or item u want put it on top, center and end)
+-Use in cols
+-align-self-ALN
+ALN:start, center, end
+
+Horizontal Alignment:horizontally  All items put in start center and end of the screen or card etc)
+-Use in rows
+-need col width 
+-justify-content-ALN
+ALN:start, center, end,
+ around,(equi distance b/w each col)
+ between (pushed the col on edge and put extra spacing on b/w)
+
+
+
+
+
+  <div class="container" id="services">
+
+<!-- ROW 1 -->
+  <div class="row bg-info" style="height: 100vh;">
+        <section class="col">
+          <img src="images/image.png" alt="sample image">
+          <h4>Exotic Pets</h4>
+          <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+        </section>
+        <section class="col align-self-center">
+          <img src="images/image.png" alt="sample image">
+          <h4>Grooming</h4>
+          <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+        </section>
+        <section class="col align-self-end">
+          <img src="images/image.png" alt="sample image">
+          <h4>General Health</h4>
+          <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings.</p>
+        </section>
+  </div><!-- row -->
+
+<!-- ROW 2 -->
+  <div class="row bg-warning justify-content-between" style="height: 100vh;">
+    <section class="col-4">
+      <img src="images/image.png" alt="sample image">
+      <h4>Exotic Pets</h4>
+      <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+    </section>
+    <section class="col-4">
+      <img src="images/image.png" alt="sample image">
+      <h4>Grooming</h4>
+      <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+    </section>
+  </div><!-- row -->
+
+
+</div><!-- container -->

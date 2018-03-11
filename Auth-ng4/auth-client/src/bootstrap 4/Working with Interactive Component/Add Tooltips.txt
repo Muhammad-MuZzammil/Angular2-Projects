@@ -1,0 +1,50 @@
+Using Tooltips:
+-Links or Controls (form controls)
+-data-toggle="tooltip"
+-title="text"
+
+Configuration & Activation:
+-data or JS configuration
+-javascript activation
+
+$(function(){
+$('[data-toggle="tooltip"]').tooltip({OPTIONS})
+})
+
+<div class="tooltip bs-tooltip-top" role="tooltip">
+<div class="arrow"></div>
+<div class="tooltip-inner">
+some tooltip text!
+</div>
+</div>
+
+Common Options:
+-placement 
+top right bottom left
+-trigger
+click hover focus
+-html
+true false
+
+
+<div class="container mt-4">
+
+<section class="content" id="mission">
+  <h1>Our Commitment <small>to you</small></h1>
+  <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative 
+    <a href="#" data-toggle="tooltip" data-placement="bottom"
+      title="Exams, ultrasounds and more.">medicine</a> in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+  <p>We strive to be your pet's medical staff experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+</section>
+
+</div><!-- content container -->
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>

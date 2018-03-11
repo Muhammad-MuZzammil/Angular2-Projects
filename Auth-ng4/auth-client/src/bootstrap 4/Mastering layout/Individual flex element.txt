@@ -1,0 +1,16 @@
+ALIGN-SELF:
+align-self (-BP)-ALG
+BP: sm>576, md>768, lg>992, xl>1200
+ALG: start end center baseline stretch
+
+
+
+<div class="container bg-danger">
+  <div class="bg-info d-flex" style="height: 100vh;">
+    <div class="item">Exotic</div>
+    <div class="item align-self-stretch">Grooming</div>
+    <div class="item">Health</div>
+    <div class="item">Nutrition</div>
+    <div class="item">Pests</div>
+    <div class="item">Vaccinations</div>
+  </div>
